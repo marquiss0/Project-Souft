@@ -1,0 +1,123 @@
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url(img/WhatsApp\ Image\ 2023-11-30\ at\ 16.14.51_2a8dfa0c.jpg) center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+
+
+}
+
+.container h1{
+    color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3,5s;
+
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset;
+
+}
+.navbar .reservation{
+    padding-right: 8px;
+    background-color: blue;
+
+}
+
+.content{
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    color: #fff;
+    top: 35%;
+    left: 30%;
+    /* border: 1px  solid; */
+
+}
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+    /* border: 1px solid; */
+
+}
+.content h1{
+    font-size: 40px;
+    top: 20%;
+    /* border: 1px solid; */
+}
+
+.content p{
+    text-align: center;
+    margin-top: 17px;
+    /* border: 1px solid; */
+
+}
+
+.search{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 34%;
+    border: 1px solid;
+}
+
+.search input{
+outline: none;
+border: none;
+padding: 12px 40px;
+size: 1em;
+width: 100%;
+border: 1px solid;
+
+}
+
+.submit{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 43%;
+
+
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: blue;
+    /* top: 25%; */
+    border: 1px solid;
+    /* margin-top: 35%;
+    margin-left: 20%; */
+    
+}
+
+/* .double-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
